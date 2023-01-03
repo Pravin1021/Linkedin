@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 2rem;
+}
+.logflex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 2rem;
+}
+.logcontent{
+    width: 50%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+.logimg{
+    width: 50%;
+    height: auto;
+}
+#welcome{
+    font-size: 3.5rem;
+    font-weight: 100;
+    margin-bottom: 2rem;
+    color: rgba(119, 25, 25, 0.692);
+}
+#logform{
+    width: 400px;
+}
+#logemail{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(225, 234, 243);
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#logemail:focus{
+    outline: 2px solid #0073b1;
+    border: none;
+}
+#logpassword{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(225, 234, 243);
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#logpassword:focus{
+    outline: 2px solid #0073b1;
+    border: none;
+}
+#showpass{
+    position: absolute;
+    bottom: 360px;
+    left: 400px;
+    font-size: 18px;
+    border: none;
+    padding: 5px;
+    color:rgb(74, 77, 77);
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#showpass:hover{
+    background-color: rgb(227, 239, 248);
+}
+#forget{
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1rem;
+    margin-bottom: 1.6rem;
+    font-size: 17px;
+    color:black;
+}
+#forget:hover{
+    text-decoration: underline;
+    color:blue;
+}
+#signinbtn{
+    width: 100%;
+    padding: 1rem;
+    color: #fff;
+    font-size: 18px;
+    background-color: #0073b1;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}
+#signinbtn:hover{
+    background-color: #036296;
+}
+#signupbtn{
+    width: 100%;
+    padding: 1rem;
+    color:rgb(74, 77, 77);
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid rgb(74, 77, 77);
+    cursor: pointer;
+}
+#signupbtn:hover{
+    background-color: rgb(236, 232, 226);
+    color: black;
+    border: 2px solid rgb(74, 77, 77);
+}
