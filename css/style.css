@@ -3,24 +3,30 @@
     padding: 0;
     box-sizing: border-box;
 }
-.container{
+.logo{
+    padding: 0 2rem;
+}
+.container1{
     margin: 0 2rem;
 }
 .logflex{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 2rem;
+   
 }
 .logcontent{
     width: 50%;
     height: auto;
     display: flex;
     flex-direction: column;
+    padding: 2rem;
+    margin-left: 2rem;
 }
 .logimg{
-    width: 50%;
+    width: 45%;
     height: auto;
+    overflow: hidden;
 }
 #welcome{
     font-size: 3.5rem;
@@ -31,6 +37,9 @@
 #logform{
     width: 400px;
 }
+#signform{
+    width: 400px;
+}
 #logemail{
     padding: 1rem;
     width: 100%;
@@ -39,7 +48,15 @@
     border-radius: 3px;
     border: 1px solid black;
 }
-#logemail:focus{
+#signemail{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(225, 234, 243);
+    margin-bottom: 1rem;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+#signemail:focus{
     outline: 2px solid #0073b1;
     border: none;
 }
@@ -51,13 +68,25 @@
     border-radius: 3px;
     border: 1px solid black;
 }
+#signpassword{
+    padding: 1rem;
+    width: 100%;
+    background-color: rgb(225, 234, 243);
+    position: relative;
+    border-radius: 3px;
+    border: 1px solid black;
+}
 #logpassword:focus{
+    outline: 2px solid #0073b1;
+    border: none;
+}
+#signpassword:focus{
     outline: 2px solid #0073b1;
     border: none;
 }
 #showpass{
     position: absolute;
-    bottom: 360px;
+    bottom: 290px;
     left: 400px;
     font-size: 18px;
     border: none;
@@ -66,6 +95,7 @@
     background-color: transparent;
     border-radius: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 #showpass:hover{
     background-color: rgb(227, 239, 248);
@@ -93,10 +123,39 @@
     margin-bottom: 2rem;
     cursor: pointer;
 }
-#signinbtn:hover{
+#newsigninbtn{
+    width: 400px;
+    padding: 1rem;
+    color: #fff;
+    font-size: 18px;
+    background-color: #0073b1;
+    border-radius: 50px;
+    border: none;
+    margin-bottom: 2rem;
+    cursor: pointer;
+}#signinbtn:hover{
+    background-color: #036296;
+}
+#newsigninbtn:hover{
     background-color: #036296;
 }
 #signupbtn{
+    
+    padding: 1rem;
+    color:rgb(74, 77, 77);
+    font-size: 18px;
+    background-color: #fff;
+    border-radius: 50px;
+    border: 1px solid rgb(74, 77, 77);
+    cursor: pointer;
+    width: 400px;
+}
+#signupbtn:hover{
+    background-color: rgb(236, 232, 226);
+    color: black;
+    border: 2px solid rgb(74, 77, 77);
+}
+#newsignupbtn{
     width: 100%;
     padding: 1rem;
     color:rgb(74, 77, 77);
@@ -105,8 +164,11 @@
     border-radius: 50px;
     border: 1px solid rgb(74, 77, 77);
     cursor: pointer;
+    width: 400px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
 }
-#signupbtn:hover{
+#newsignupbtn:hover{
     background-color: rgb(236, 232, 226);
     color: black;
     border: 2px solid rgb(74, 77, 77);
